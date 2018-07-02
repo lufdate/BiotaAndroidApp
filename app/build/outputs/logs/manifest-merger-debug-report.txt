@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/2734efd264964f8b94ba1f5f5b814fdb/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/fd3197cd70a3b52b984b31c5d54ff57f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93282c2a8b05bafe511c3511adf97660/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54a9d5eae41ab9f5355b1e02cc2db126/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d71389ef9a9f068aba7f603e5e7c118a/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.usb.accessory
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:6:19-64
+uses-permission#android.permission.SHUTDOWN
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:9:5-35:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/2734efd264964f8b94ba1f5f5b814fdb/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/2734efd264964f8b94ba1f5f5b814fdb/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/fd3197cd70a3b52b984b31c5d54ff57f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/fd3197cd70a3b52b984b31c5d54ff57f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93282c2a8b05bafe511c3511adf97660/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93282c2a8b05bafe511c3511adf97660/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54a9d5eae41ab9f5355b1e02cc2db126/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54a9d5eae41ab9f5355b1e02cc2db126/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d71389ef9a9f068aba7f603e5e7c118a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d71389ef9a9f068aba7f603e5e7c118a/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:11:9-45
+	android:allowBackup
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:13:9-40
+uses-library#com.android.future.usb.accessory
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:15:9-73
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:15:23-70
+activity#com.example.android.BiotaApp.MainActivity
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:17:9-34:20
+	android:screenOrientation
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:21:13-50
+	android:label
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:19:13-45
+	android:launchMode
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:20:13-43
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:18:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:25:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:27:13-29:29
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:28:17-93
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:28:25-90
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:31:13-33:60
+	android:resource
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:33:17-57
+	android:name
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml:32:17-82
+uses-sdk
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/2734efd264964f8b94ba1f5f5b814fdb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/2734efd264964f8b94ba1f5f5b814fdb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/fd3197cd70a3b52b984b31c5d54ff57f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/fd3197cd70a3b52b984b31c5d54ff57f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93282c2a8b05bafe511c3511adf97660/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93282c2a8b05bafe511c3511adf97660/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54a9d5eae41ab9f5355b1e02cc2db126/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54a9d5eae41ab9f5355b1e02cc2db126/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d71389ef9a9f068aba7f603e5e7c118a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d71389ef9a9f068aba7f603e5e7c118a/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/fd3197cd70a3b52b984b31c5d54ff57f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/fd3197cd70a3b52b984b31c5d54ff57f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93282c2a8b05bafe511c3511adf97660/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93282c2a8b05bafe511c3511adf97660/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54a9d5eae41ab9f5355b1e02cc2db126/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54a9d5eae41ab9f5355b1e02cc2db126/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d71389ef9a9f068aba7f603e5e7c118a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d71389ef9a9f068aba7f603e5e7c118a/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bc11d669ad00cfb7024a2d83025d86c1/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/luisdavila/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b6fe8f3cdfad3bd80bc9dedc9d707af5/AndroidManifest.xml:26:13-58

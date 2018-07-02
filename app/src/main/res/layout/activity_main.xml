@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="26"
+            android:background="@color/black">
+
+            <TextView
+                android:id="@+id/tvBrightness"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:paddingBottom="2dp"
+                android:text="Mensajes del Controlador"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvConnection"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:paddingBottom="2dp"
+                android:text="Desconectado"
+                android:textColor="#FFF"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/ivButton"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:src="@drawable/button_r" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="29dp">
+            <View
+                android:id="@+id/vseparador"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/llNombreArea"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/vseparador"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvHorno"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:text="Horno"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="30dp" />
+
+                <Switch
+                    android:id="@+id/sbHorno"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:background="@drawable/back"
+                    android:paddingRight="10dp"
+                    android:thumbTint="@color/switch_thumb_color"
+                    android:thumbTintMode="src_atop"
+                    android:trackTint="@color/switch_track_color"
+                    android:trackTintMode="src_over" />
+
+                <TextView
+                    android:id="@+id/tvSecador"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:text="Secador"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="30dp" />
+
+                <Switch
+                    android:id="@+id/sbSecador"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:background="@drawable/backswitch"
+                    android:paddingRight="10dp"
+                    android:thumbTint="@color/switch_thumb_color"
+                    android:thumbTintMode="src_atop"
+                    android:trackTint="@color/switch_track_color"
+                    android:trackTintMode="src_over" />
+
+
+            </LinearLayout>
+
+
+            <!--   -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/llNombreArea"
+                android:background="@drawable/backdevice"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lluno"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/backdevice"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvHornoTituloRT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:gravity="center"
+                        android:text="Valores en Tiempo Real"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="22dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHornoVelRT"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Velocidad (RPM )"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/tvHornoTempRT"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Temperatura (°C )"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHornoVelRTVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="000"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="42dp" />
+
+                        <TextView
+                            android:id="@+id/tvHornoTemRTVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="000"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="42dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/vseparadorHorno"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="0dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/tvHornoTituloSet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:gravity="center"
+                        android:text="Valores Deseados"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="22dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHornoVelSet"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Velocidad (RPM )"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/tvHornoTempSet"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Temperatura (°C )"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etHornoVelSetVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/backset"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:text="000"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="42dp" />
+
+                        <ImageButton
+                            android:id="@+id/ibSetHornoVel"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="OnHornoVelClick"
+                            android:src="@drawable/checkbox" />
+
+                        <EditText
+                            android:id="@+id/etHornoTemSetVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/backset"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:text="000"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="42dp" />
+
+                        <ImageButton
+                            android:id="@+id/ibSetHornoTemp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="15dp"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="OnHornoTempClick"
+                            android:src="@drawable/checkbox" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@drawable/backdevice"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSecadorTituloRT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:gravity="center"
+                        android:text="Valores en Tiempo Real"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="22dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvSecaVelRT"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Velocidad (RPM )"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/tvSecaTempRT"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Temperatura(°C)"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/tvSecaHumRT"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Humedad R ( % )"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvSecaVelRTVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="000"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="42dp" />
+
+                        <TextView
+                            android:id="@+id/tvSecaTempRTVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="000"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="42dp" />
+
+                        <TextView
+                            android:id="@+id/tvVelHumRTVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="00"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="42dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/vseparadorSecador"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="0dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/tvSecaTituloSet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="Valores Deseados"
+                        android:gravity="center"
+                        android:textColor="#FFF"
+                        android:textSize="22dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvSecaVelSet"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Velocidad (RPM )"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                        <TextView
+                            android:id="@+id/tvSecaHumSet"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Humedad R ( % )         "
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="22dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etSecaVelSetVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="70dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/backset"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:text="000"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="42dp" />
+
+                        <ImageButton
+                            android:id="@+id/ibSetSecaVel"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="OnSecaVelClick"
+                            android:src="@drawable/checkbox" />
+
+                        <EditText
+                            android:id="@+id/etSecaHumSetVal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="70dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/backset"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            android:text="00"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="42dp" />
+
+                        <ImageButton
+                            android:id="@+id/ibSetSecaHum"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="30dp"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="OnSecaHumClick"
+                            android:src="@drawable/checkbox" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etCantidad"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="numberDecimal"
+                    android:text="hola"
+                    android:textColor="#2878ff"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btIngrese"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:onClick="OnButtonClick"
+                    android:text="Enviar"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
