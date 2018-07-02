@@ -91,7 +91,7 @@ public class MainActivity extends Activity {
         mHornoSwitch.setChecked(false);
         mSecaSwitch.setChecked(false);
 
-        // comentarios
+        // comentarios para ver si se han creado
 
         final CountDownTimer myTimerHornoVel = new CountDownTimer(5000, 1000){
             public void onTick(long millisUntilFinished){
