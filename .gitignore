@@ -1,5 +1,12 @@
 .DS_Store
 workspace.xml
 .idea/workspace.xml
-/.idea
+.idea/caches/build_file_checksums.ser
+.gradle/4.4.1/fileHashes/fileHashes.lock
+.gradle
+.gradle/
+*.gradle
+**/gradle/
+.idea/
 *.idea
+**/.idea/
