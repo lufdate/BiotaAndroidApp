@@ -91,6 +91,8 @@ public class MainActivity extends Activity {
         mHornoSwitch.setChecked(false);
         mSecaSwitch.setChecked(false);
 
+        // comentario
+
         final CountDownTimer myTimerHornoVel = new CountDownTimer(5000, 1000){
             public void onTick(long millisUntilFinished){
                 mVelocidadSet .setBackgroundColor(Color.GREEN);
