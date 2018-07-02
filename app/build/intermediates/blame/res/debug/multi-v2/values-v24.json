@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/luisdavila/AndroidStudioProjects/BiotaAndroidApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/luisdavila/Documentos/GitHub/BiotaAndroidApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/luisdavila/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/27d176c25e203ce1a22928c7fc645997/res/values-v24/values-v24.xml",
